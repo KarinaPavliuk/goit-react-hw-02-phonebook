@@ -26,7 +26,6 @@ export class App extends Component {
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== id),
     }));
-    console.log(this.state.contacts);
   };
 
   createContact = newContact => {

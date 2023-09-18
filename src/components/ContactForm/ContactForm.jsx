@@ -16,7 +16,6 @@ export class ContactForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.props.createContact(this.state);
-    console.log(this.state);
   };
 
   render() {
